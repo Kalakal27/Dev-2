@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+}
+body{
+    display: grid;
+    /* grid-template-columns: 1.5em 1fr 1.5em; */
+    grid-template-areas: 
+    "header header header header"
+    "box1 box1 box7 box7"
+    "box2 box2 box7 box7"
+    "box3 box3 box7 box7"
+    "box4 box4 box7 box7"
+    "box5 box5 box7 box7"
+    "box6 box6 box7 box7";
+}
+
+header{
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+    display: block;
+    height: 310px;
+    grid-area: header;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  position: relative; right: 163px; top: 100px;
+  font-size: 50px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: lighter;
+}
+
+h2{
+   color:#FFFFFF99;
+   text-align: center;
+   position: relative; right: 230px; top: 110px;
+   font-family: 'Libre Baskerville', serif;
+   font-weight: lighter; 
+   font-size: 25px;
+}
+abbr{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.paint{
+  color: #FFFFFF99;
+  height: 100px;
+  position: relative; left: 165px; top:10px
+}
+
+.box1{
+    width: 700px;
+    grid-area: box1;
+}
+
+p{
+    overflow-wrap: break-word;
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+    position: relative; left: 165px; top: 65px;
+    line-height: 45px;
+    
+}
+
+.box2{
+    width: 700px;
+    grid-area: box2
+}
+
+h3{
+    text-align: justify;
+    font-family: 'Julius Sans One', sans-serif;
+    position: relative; left: 165px; top: 65px;
+    font-size:xx-large;
+    line-height: 75px;
+    font-weight: lighter;
+}
+
+.box3{
+    width: 700px;
+    grid-area: box3;
+}
+
+.box4{
+    width: 700px;
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(126, 182, 167, 0.5);
+    background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    background-image: url(http://www.csszengarden.com/214/bamboo.png); 
+    display: block;
+    grid-area: box4;
+    
+}
+
+.box5{
+    width: 700px;
+    grid-area: box5
+}
+
+.box6{
+    width: 700px;
+    grid-area: box6;
+}
+.box7{
+    background-color: gray;
+    height: 700px;
+    width: 100px;
+    grid-area: box7;
+    
+    
+}
+.select{
+    display: none;
+}
+.designer{
+    color: #616857;
+    font-size: 0.9em;
+    font-style: normal;
+}
+.arch{
+    position: absolute;
+    top: 160px;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(255,255,255,0.2);
+}
+.arch h3{
+    display: none;
+}
+.arch ul{
+    margin: 0%;
+}
+.arch li{
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+}
+.next .view{
+    left: 0;
+    z-index: 3;
+}
+.next{
+    left: auto;
+    right: 0;
+}
+.arch a{
+    color: rgba(255,255,255,0.65);
+}
+.arch a:hover{
+    color: #fff;  
+}
+.arch ,.next{
+    display: block;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    text-indent: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.arch a::before{
+    position: absolute;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-indent: 0;
+    font-size: 40px;
+    font-family: 'verdemoderna';
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 70px;
+}
+.arch .view a:hover, .arch a:hover:before{
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.1);
+}
+.arch .view a::before{
+    content: "<";
+}
+.arch .next a::before{
+    content: ">";
+
+}
+.resources{
+    height: 400px;
+    overflow: hidden;
+    background-color: rgba(126, 182, 167, 0.5);
+    background-image: url(bamboo.png);
+}
+.resources li{
+    border-bottom: solid 1px #a0b9ad;
+}
+.resources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
