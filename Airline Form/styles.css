@@ -1,0 +1,23 @@
+h1{
+   text-align: center;
+}
+body{
+    background-color: lawngreen;
+}
+.travelform{
+max-width: 500px;
+margin:2rem auto;
+border: 2px solid rgb(2, 1, 0);
+padding: 2rem;
+background-color: blue;
+}
+label{
+    display: block;
+    font-style:italic;
+    font-size: larger;
+    color: rgb(255, 166, 0);
+}
+input{
+    display: block;
+}
+

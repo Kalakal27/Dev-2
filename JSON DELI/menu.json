@@ -1,0 +1,33 @@
+{
+    "Menu": {
+        "appetizer": {
+            "name": ["Butter Bread", "French Fries"],
+            "ingredients": ["Bread", "Butter", "Potatoes"],
+            "description": ["try are new Golden Bread or Sliced Potatoes"]
+            
+        },
+        "Cold Sandwiches": {
+            "name": ["Turkey Sandwich", "Ham Sandwich"],
+            "ingredients":["Bread", "Turkey", "Ham"],
+            "description":["your normal handmade sandwich"]
+        },
+        "Hot Sandwiches": {
+            "name": ["Turkey Melt", "Ham Melt"],
+            "ingredients":["Turkey", "Bread", "Ham"],
+            "description":["your normal handmade sandwich with a twist"]
+        },
+        "Desserts": {
+            "name":["Lava Cake", "Strawberry Shortcake", "Red Velvet"],
+            "ingredients":["dough", "flour", "strawberry", "Cocoa Powder"],
+            "description":["flavorful journey you wont forget"]
+        },
+        "drinks": {
+            "name":["milkshake", "Soda Pop", "alcohol"],
+            "description":["mouth dry? quench it with are beverages"]
+        }
+
+        
+        
+    }
+        
+}

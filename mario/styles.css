@@ -1,0 +1,48 @@
+  .goomba {
+    width: 200px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: 1100px;
+    display: flex;
+    
+}
+.bomb-omb{
+    width: 255px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: 1100px;
+    display: flex;
+}
+.cheep-cheep{
+    margin-left: auto;
+    margin-right: 1100px;
+    display: flex;
+    width: 225px;
+    height: 225px;
+} 
+
+    
+
+
+
+#baddie{ 
+    display: flex;
+}
+
+#baddie > div{
+    display: flex;
+    flex-direction: column;
+}
+
+#result{
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+footer{
+    font-size: medium;
+    color: darkblue;
+    font-style: italic;
+}
