@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+}
+body{
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     grid-auto-rows: minmax(200px, auto);
+     grid-template-rows: repeat(9, minmax(200px, auto));
+     grid-row-gap: 10px;
+     grid-column-gap: 10px; 
+     overflow-x: hidden;
+     
+    
+}
+
+header{
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+    display: inline-block;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
+
+.head{
+    display: inline-block;
+    position: relative;
+    width: 66%;
+}
+nav{
+    display: inline-block;
+     
+}
+
+h1{
+  color: white;
+  text-align: center;
+  /* position: relative; right: 163px; top: 100px; */
+  font-size: 50px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: lighter;
+}
+
+h2{
+   color:#FFFFFF99;
+   text-align: center;
+    /* position: relative; right: 230px; top: 110px;  */
+   font-family: 'Libre Baskerville', serif; 
+   font-weight: lighter; 
+   font-size: 25px;
+}
+abbr{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.paint{
+  color: #FFFFFF99;
+  height: 100px;
+   position: absolute; left: 130px; 
+}
+
+.box1{
+    height: 25px;
+     /* width: 700px;  */
+     /* grid-area: box1;  */
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+p{
+    word-wrap: normal;
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+    /* position: relative; left: 165px; top: 15px; */
+    line-height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+.para{
+    word-wrap: normal;
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+    /* position: relative; left: 150px; top: 20px; */
+    line-height: 25px;
+     width: 810px; 
+    height: 100px;
+}
+
+
+h5{
+    word-wrap: normal;
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+    /* position: relative; left: 165px; top: 20px; */
+    line-height: 45px;
+}
+.box2{
+    height: 25px;
+    /* width: 700px; */
+    /* grid-area: box2; */
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+h3{
+    text-align: justify;
+    font-family: 'Julius Sans One', sans-serif;
+    /* position: relative; left: 165px; top: 25px; */
+    font-size:xx-large;
+    line-height: 75px;
+    font-weight: lighter;
+}
+
+.box3{
+    /* width: 700px; */
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.box4-5-container{
+    height: 700px;
+    width: auto; 
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(126, 182, 167, 0.5);
+    background-image:  url(bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    background-image: url(http://www.csszengarden.com/214/bamboo.png);  
+    grid-row-start: 6;
+    grid-row-end: 7;
+     grid-column-start: 1;
+    grid-column-end: 3; 
+     padding-left: 20px;
+    padding-right: 20px; 
+    
+    
+}
+
+.box6{
+     /* width: 700px;  */
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.image{
+    background-image:  url(http://www.csszengarden.com/214/koi.jpg);
+     width: auto; 
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    margin-top: -10px;
+}
+
+h4{
+    color:#FFFFFF99;
+   text-align: center;
+   /* position: relative; right: 30px; top: 110px; */
+   font-family: 'Libre Baskerville', serif;
+   font-weight: lighter; 
+   font-size: 25px;
+   line-height: 100px;
+   font-style: italic;
+   padding-right: 75px;
+   padding-left: 75px;
+  
+   
+}
+
+a{
+    font-style: normal;
+}
+
+nav{
+    display:inline-block;
+     height: 42px;
+     background-color: rgb(43, 48, 46, 0.4);
+     font-size: 29px;
+     text-align: center;
+      margin-top: 100px;
+      margin-left: 46px;
+     font-weight: bold;
+      /* padding-left: 50px;  */
+     padding-right: -90px;
+    }
+
+
+
+
+  .box7{
+    background-color: rgba(32, 34, 33, 0.425);
+    opacity: 0.5; 
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    margin: 0;
+    
+    
+}  
+
+
+.indicator{
+    display: block;
+    height: 42px;
+    /* width: 50px; */
+    background-color: rgb(43,48,46,0.4);
+    margin-top: -33px;
+    margin-left: 300px;
+    font-weight: lighter;
+    
+
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 250px;
+    font-size: 20px;
+}
+
+h6{
+    font-size: 25px;
+}
+
+.p2{
+    font-size: 20px;
+}
+
+.second{
+    margin-top: 80px;
+}
+
+.third{
+    margin-top: 80px;
+}
+
+.fourth{
+    margin-top: 80px;
+}
+
+.fifth{
+    margin-top: 80px;
+}
+
+.sixth{
+    margin-top: 80px;
+}
+
+.seventh{
+    margin-top: 80px
+}
+
+.eighth{
+    margin-top: 80px;
+}
+
+.resources{
+    margin-left: -190px;
+    margin-top: 55px;
+    font-size: 20px;
+    
+}
+
+.view{
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+.view2{
+    margin-left: 350px;
+    margin-top: -44px;
+    
+}
+
+.view3{
+    margin-left: 350px;
+    margin-top: -44px;
+}
+
+.view4{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.view5{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+
+
+@font-face {
+    font-family: "verdemoderna";
+    src: url(./verdemoderna.woff);
+    font-weight: normal;
+}
+
+.footer{
+    background-color: #134347;
+    height: 252px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    margin-top: -10px;
+    text-align: center;
+    font-family: "verdemoderna";
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 200px
+}
+
+
+.fa-brands-fa-github{
+    font-size: 80px;
+}
+
+.fa-brands-fa-accessible{
+    font-size: 280px;
+}
+
+@media all and (max-width: 500px) {
+    body{
+        overflow-x: hidden;
+         display: grid;
+         grid-template-columns: 1fr ;
+         grid-auto-rows: minmax(200px, auto);
+         grid-template-areas: 
+         "header"
+         "nav"
+         "box1"
+         "box2"
+         "box3"
+         "box4"
+         "box5"
+         "box6"
+         "footer"
+         "box7";
+    }
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+.box1{
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+.box4{
+    grid-area: box4
+}
+.box5{
+    grid-area: box5;
+}
+.box6{
+    grid-area: box6
+}
+footer{
+    grid-area: footer;
+}
+.box7{
+    grid-area: box7;
+}
+
+}
